@@ -1,0 +1,88 @@
+h1,h2,h3,h4,h5,h6 {font-family: 'Cinzel Decorative', cursive;}
+#head{
+  display: block;
+  flex-direction:row
+  justify-content: space-around:
+}
+#floatr{
+  float: right;
+  padding-bottom:8%;
+  padding-right: 40%
+
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding:15%;
+  transition: all 0.3s ease;
+  color:white;
+  font-size: 26px;
+  text-decoration: none;
+
+}
+.icon-bar{
+  height: 100%;
+  width: 145px;
+  background: #222;
+  position: fixed;
+  border: 1px solid grey:
+  padding:5%;
+  overflow-x: scroll;
+
+
+}
+
+#julie{
+    display: block;
+    float:right;
+    margin-left: 120px
+
+}
+body{
+  background-color:black;
+  font-size-adjust: auto;
+  color: white;
+  background-image:url("http://hotemailtemplates.com/templates/Free/wallpapers/1680x1050/Glowing%20Background.jpg");
+  border-right: 200%
+}
+
+
+
+
+
+}
+
+.me{
+  border:1px solid white;
+  border-radius: 8%;
+}
+
+.contact{
+  display:block;
+  padding-top: 10%;
+  padding-left: 30%;
+  padding-right: 30%;
+
+
+
+}
+
+
+.textl{
+     text-align: left;
+     float: right;
+     padding-top: 15%;
+     padding-right: 10%;
+}
+
+#imgo{
+    border: 1px solid black;
+    height: 1234;
+    border-width: 900;
+}
+
+
+
+/* remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
